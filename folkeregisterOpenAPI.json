@@ -42,22 +42,6 @@
                     "$ref": "#/components/schemas/LagretHendelseMedDokumentIdentifikatorer"
                   }
                 }
-              },
-              "application/atom+xml": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/LagretHendelseMedDokumentIdentifikatorer"
-                  }
-                }
-              },
-              "application/xml": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/LagretHendelseMedDokumentIdentifikatorer"
-                  }
-                }
               }
             }
           },
@@ -175,11 +159,6 @@
               "schema": {
                 "$ref": "#/components/schemas/HendelseBulkoppslagRequest"
               }
-            },
-            "application/xml": {
-              "schema": {
-                "$ref": "#/components/schemas/HendelseBulkoppslagRequest"
-              }
             }
           }
         },
@@ -223,36 +202,6 @@
         }
       }
     },
-    "/v1/hendelser/xsd": {
-      "get": {
-        "tags": ["Offentlig med hjemmel"],
-        "summary": "Hent XSD for hendelse",
-        "operationId": "getXsd",
-        "responses": {
-          "default": {
-            "description": "default response",
-            "content": {
-              "application/xml": {}
-            }
-          }
-        }
-      }
-    },
-    "/v1/hendelser/feedxsd": {
-      "get": {
-        "tags": ["Offentlig med hjemmel"],
-        "summary": "Hent XSD for feed",
-        "operationId": "getFeedXsd",
-        "responses": {
-          "default": {
-            "description": "default response",
-            "content": {
-              "application/xml": {}
-            }
-          }
-        }
-      }
-    },
     "/v1/personer/bulkoppslag": {
       "post": {
         "tags": ["Offentlig med hjemmel"],
@@ -278,11 +227,6 @@
         "requestBody": {
           "content": {
             "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/PersonBulkoppslagRequest"
-              }
-            },
-            "application/xml": {
               "schema": {
                 "$ref": "#/components/schemas/PersonBulkoppslagRequest"
               }
@@ -354,11 +298,6 @@
         "requestBody": {
           "content": {
             "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/ArkivDokumentBulkoppslagRequest"
-              }
-            },
-            "application/xml": {
               "schema": {
                 "$ref": "#/components/schemas/ArkivDokumentBulkoppslagRequest"
               }
@@ -633,9 +572,6 @@
           "feilreferanse": {
             "type": "string"
           }
-        },
-        "xml": {
-          "name": "error"
         }
       },
       "Adressenummer": {
