@@ -74,16 +74,6 @@
                 "schema": {
                   "$ref": "#/components/schemas/FolkeregisterFeilmelding"
                 }
-              },
-              "application/atom+xml": {
-                "schema": {
-                  "$ref": "#/components/schemas/FolkeregisterFeilmelding"
-                }
-              },
-              "application/xml": {
-                "schema": {
-                  "$ref": "#/components/schemas/FolkeregisterFeilmelding"
-                }
               }
             }
           },
@@ -94,16 +84,6 @@
                 "schema": {
                   "$ref": "#/components/schemas/FolkeregisterFeilmelding"
                 }
-              },
-              "application/atom+xml": {
-                "schema": {
-                  "$ref": "#/components/schemas/FolkeregisterFeilmelding"
-                }
-              },
-              "application/xml": {
-                "schema": {
-                  "$ref": "#/components/schemas/FolkeregisterFeilmelding"
-                }
               }
             }
           },
@@ -111,16 +91,6 @@
             "description": "Ikke funnet.",
             "content": {
               "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ErrorMessageForExternalUsers"
-                }
-              },
-              "application/atom+xml": {
-                "schema": {
-                  "$ref": "#/components/schemas/ErrorMessageForExternalUsers"
-                }
-              },
-              "application/xml": {
                 "schema": {
                   "$ref": "#/components/schemas/ErrorMessageForExternalUsers"
                 }
@@ -159,11 +129,6 @@
                 "schema": {
                   "$ref": "#/components/schemas/DokumentForHendelse"
                 }
-              },
-              "application/xml": {
-                "schema": {
-                  "$ref": "#/components/schemas/DokumentForHendelse"
-                }
               }
             }
           },
@@ -177,11 +142,6 @@
                 "schema": {
                   "$ref": "#/components/schemas/FolkeregisterFeilmelding"
                 }
-              },
-              "application/xml": {
-                "schema": {
-                  "$ref": "#/components/schemas/FolkeregisterFeilmelding"
-                }
               }
             }
           },
@@ -189,11 +149,6 @@
             "description": "Ugyldig tilgang.",
             "content": {
               "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/FolkeregisterFeilmelding"
-                }
-              },
-              "application/xml": {
                 "schema": {
                   "$ref": "#/components/schemas/FolkeregisterFeilmelding"
                 }
@@ -236,11 +191,6 @@
                 "schema": {
                   "$ref": "#/components/schemas/DokumentForHendelse"
                 }
-              },
-              "application/xml": {
-                "schema": {
-                  "$ref": "#/components/schemas/DokumentForHendelse"
-                }
               }
             }
           },
@@ -254,11 +204,6 @@
                 "schema": {
                   "$ref": "#/components/schemas/FolkeregisterFeilmelding"
                 }
-              },
-              "application/xml": {
-                "schema": {
-                  "$ref": "#/components/schemas/FolkeregisterFeilmelding"
-                }
               }
             }
           },
@@ -266,11 +211,6 @@
             "description": "Ugyldig tilgang.",
             "content": {
               "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/FolkeregisterFeilmelding"
-                }
-              },
-              "application/xml": {
                 "schema": {
                   "$ref": "#/components/schemas/FolkeregisterFeilmelding"
                 }
@@ -357,11 +297,6 @@
                 "schema": {
                   "$ref": "#/components/schemas/Folkeregisterperson"
                 }
-              },
-              "application/xml": {
-                "schema": {
-                  "$ref": "#/components/schemas/Folkeregisterperson"
-                }
               }
             }
           },
@@ -375,11 +310,6 @@
                 "schema": {
                   "$ref": "#/components/schemas/FolkeregisterFeilmelding"
                 }
-              },
-              "application/xml": {
-                "schema": {
-                  "$ref": "#/components/schemas/FolkeregisterFeilmelding"
-                }
               }
             }
           },
@@ -387,11 +317,6 @@
             "description": "Ugyldig tilgang.",
             "content": {
               "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/FolkeregisterFeilmelding"
-                }
-              },
-              "application/xml": {
                 "schema": {
                   "$ref": "#/components/schemas/FolkeregisterFeilmelding"
                 }
@@ -448,11 +373,6 @@
                 "schema": {
                   "$ref": "#/components/schemas/Folkeregisterperson"
                 }
-              },
-              "application/xml": {
-                "schema": {
-                  "$ref": "#/components/schemas/Folkeregisterperson"
-                }
               }
             }
           },
@@ -466,11 +386,6 @@
                 "schema": {
                   "$ref": "#/components/schemas/FolkeregisterFeilmelding"
                 }
-              },
-              "application/xml": {
-                "schema": {
-                  "$ref": "#/components/schemas/FolkeregisterFeilmelding"
-                }
               }
             }
           },
@@ -478,11 +393,6 @@
             "description": "Ugyldig tilgang.",
             "content": {
               "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/FolkeregisterFeilmelding"
-                }
-              },
-              "application/xml": {
                 "schema": {
                   "$ref": "#/components/schemas/FolkeregisterFeilmelding"
                 }
@@ -536,11 +446,6 @@
                 "schema": {
                   "$ref": "#/components/schemas/Folkeregisterperson"
                 }
-              },
-              "application/xml": {
-                "schema": {
-                  "$ref": "#/components/schemas/Folkeregisterperson"
-                }
               }
             }
           },
@@ -554,11 +459,6 @@
                 "schema": {
                   "$ref": "#/components/schemas/FolkeregisterFeilmelding"
                 }
-              },
-              "application/xml": {
-                "schema": {
-                  "$ref": "#/components/schemas/FolkeregisterFeilmelding"
-                }
               }
             }
           },
@@ -566,11 +466,6 @@
             "description": "Ugyldig tilgang.",
             "content": {
               "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/FolkeregisterFeilmelding"
-                }
-              },
-              "application/xml": {
                 "schema": {
                   "$ref": "#/components/schemas/FolkeregisterFeilmelding"
                 }
@@ -627,11 +522,6 @@
                 "schema": {
                   "$ref": "#/components/schemas/Folkeregisterperson"
                 }
-              },
-              "application/xml": {
-                "schema": {
-                  "$ref": "#/components/schemas/Folkeregisterperson"
-                }
               }
             }
           },
@@ -645,11 +535,6 @@
                 "schema": {
                   "$ref": "#/components/schemas/FolkeregisterFeilmelding"
                 }
-              },
-              "application/xml": {
-                "schema": {
-                  "$ref": "#/components/schemas/FolkeregisterFeilmelding"
-                }
               }
             }
           },
@@ -657,11 +542,6 @@
             "description": "Ugyldig tilgang.",
             "content": {
               "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/FolkeregisterFeilmelding"
-                }
-              },
-              "application/xml": {
                 "schema": {
                   "$ref": "#/components/schemas/FolkeregisterFeilmelding"
                 }
